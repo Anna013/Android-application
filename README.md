@@ -1,1 +1,1 @@
-The repository contains code from my first implementation of an Android application, which was created using the Android Studio development environment. Movie android application uses cloud-hosted Firebase database, The YouTube Data API and The Movie Database (TMDB) API.
+The repository contains code from my first implementation of an Android application, which was created using the Android Studio development environment. Movie android application uses cloud-hosted Firebase database, the YouTube Data API and the Movie Database (TMDB) API.
