@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".Notification"
+        android:allowBackup="true"
+        android:icon="@drawable/app2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".SavedMovies"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".MovieShow"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".Account"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".ActivityDetail"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".Search"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
